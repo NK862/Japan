@@ -1,0 +1,75 @@
+body {
+    background: rgb(9,53,121);
+background: linear-gradient(90deg, rgba(9,53,121,1) 44%, rgba(29,0,255,1) 87%);
+    /* свойство -: значение - ; */
+    background-color: rgb(73, 129, 56);
+    /* Тип шрифта */
+    font-family: Arial;
+}
+body,h1,h2,h3,p {
+        /* Внешний отступ */
+        margin: 0;
+}
+h1 {
+    /* внутренний отступ (от контента, текста до границы) */
+    padding: 20px;
+    margin: 0;
+    /* границы: толщина, тип цвета */
+    /* border: 10px solid purple; */
+    /* цвет текста */
+    color: floralwhite;
+/* Цвет заднего фона */
+    background-color:firebrick;
+}
+h1 p {
+    /* Cделать элементы строчно-блочными */
+    display: inline-block;
+}
+#menu {
+    margin-left: 50%;
+}
+#menu a {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+    /* Отключить подчёркивание у ссылок */
+    text-decoration: none;
+    /* Скругление углов */
+    border-radius: 10px;
+    /* Размер шрифта, по умолчанию: 14px для обычного текста */
+    font-size: 24px;
+}
+article {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 22px 15px 27px 0px rgba(16, 102, 169, 1);
+}
+h2, article p {
+    margin-top: 10px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+/* Shift+Alt+A - добавить коммент */
+
+/* Для padding, margin, border
+-top - сверху 
+-bottom - снизу
+-left - слево 
+-right - справо  */
+h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+h5 {
+    font-size: 16px;
+}
+h6 {
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Reggae One', cursive;
+}
